@@ -2,7 +2,7 @@ import unittest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common import By
+from selenium.webdriver.common.by import By
 
 class NewVisitorTest(unittest.TestCase):
 
@@ -36,7 +36,7 @@ class NewVisitorTest(unittest.TestCase):
         inputbox.send_keys(Keys.ENTER)
         time.sleep(1)
 
-        table= self.browser.find_element(BY.id, 'id_list_table')
+        table= self.browser.find_element(By.ID, 'id_list_table')
         rows = table.find_elements(By.TAGE_NAME, 'tr')
         self.assertTrue(
                 any(row-text == '1: Buy peacock feathers' for row in rows)
