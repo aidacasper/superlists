@@ -357,3 +357,61 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://l
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
 1665952250763	Marionette	INFO	Stopped listening on port 63542
 JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1666033297265	geckodriver	INFO	Listening on 127.0.0.1:57916
+1666033300331	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57917" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofileOwWzgf"
+1666033300784	Marionette	INFO	Marionette enabled
+1666033300791	Marionette	INFO	Listening on port 57927
+Read port: 57927
+WebDriver BiDi listening on ws://127.0.0.1:57917
+1666033300998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofileOwWzgf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57917/devtools/browser/90eeeaea-9369-446e-8388-0d139298b150
+1666033305202	Marionette	INFO	Stopped listening on port 57927
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1666033348759	geckodriver	INFO	Listening on 127.0.0.1:57976
+1666033351782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofileYsoI93"
+1666033352164	Marionette	INFO	Marionette enabled
+1666033352170	Marionette	INFO	Listening on port 57986
+Read port: 57986
+WebDriver BiDi listening on ws://127.0.0.1:57977
+1666033352315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofileYsoI93\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57977/devtools/browser/ab233e14-3995-4cec-9c7e-20c6513deb21
+1666033364897	Marionette	INFO	Stopped listening on port 57986
+1666033407821	geckodriver	INFO	Listening on 127.0.0.1:58162
+1666033410854	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58163" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofiles88mzZ"
+1666033411261	Marionette	INFO	Marionette enabled
+1666033411267	Marionette	INFO	Listening on port 58173
+Read port: 58173
+WebDriver BiDi listening on ws://127.0.0.1:58163
+1666033411380	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofiles88mzZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58163/devtools/browser/30dd67c7-aa2f-4f45-b957-d328df2be6b6
+1666033421234	Marionette	INFO	Stopped listening on port 58173
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1666033429078	geckodriver	INFO	Listening on 127.0.0.1:58347
+1666033432106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58348" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofileeiFTOm"
+1666033432479	Marionette	INFO	Marionette enabled
+1666033432484	Marionette	INFO	Listening on port 58357
+WebDriver BiDi listening on ws://127.0.0.1:58348
+Read port: 58357
+1666033432746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofileeiFTOm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58348/devtools/browser/186392b6-f69e-4bcd-ac4d-304b009bb028
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1666033443490	Marionette	INFO	Stopped listening on port 58357
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1666033486568	geckodriver	INFO	Listening on 127.0.0.1:58452
+1666033489612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofilel0wT7q"
+1666033489980	Marionette	INFO	Marionette enabled
+1666033489986	Marionette	INFO	Listening on port 58462
+Read port: 58462
+WebDriver BiDi listening on ws://127.0.0.1:58453
+1666033490119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofilel0wT7q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58453/devtools/browser/9177df1d-ee54-4c9e-80a4-91b1735892f9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1666033495137	Marionette	INFO	Stopped listening on port 58462
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
