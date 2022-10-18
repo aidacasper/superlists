@@ -79,12 +79,16 @@ class NewVisitorTest(LiveServerTestCase):
         edith_list_url = self.browser.current_url
         self.assertRegex(edith_list_url, '/lists/.+')
 
-        # Now a new user comes along to the site
+        # Now a new user comes along to the site 
         # We use a new browser session to make sure no unformation of the other user is coming through from cookies etc
         self.browser.quit()
         self.browser = webdriver.Firefox()
 
         # The new user visits the homepage
+        self.browser.get(self.live_server_url)
+        page_text = self.browser.find_element(By.TAG_NAME, 'body').text
+        self.assertNotIn('Buy peacock feathers', page_text)
+        self.assertNotIn('make a fly', page_text)
         inputbox = self.browser.find_element(By.ID, 'id_new_item')
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
