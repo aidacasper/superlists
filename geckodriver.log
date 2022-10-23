@@ -1493,8 +1493,10 @@ WebDriver BiDi listening on ws://127.0.0.1:54410
 1666472470441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofileGmA1qb\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:54410/devtools/browser/bcbaf2da-c0f5-4984-a2d6-8c890e2a4e53
-1666472473040	geckodriver	INFO	Listening on 127.0.0.1:54437
-1666472476107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54438" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofile0oGtVz"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1666476406159	Marionette	INFO	Stopped listening on port 54419
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofile0oGtVz"
 1666472476836	Marionette	INFO	Marionette enabled
 1666472476844	Marionette	INFO	Listening on port 54533
 Read port: 54533
@@ -1512,49 +1514,36 @@ WebDriver BiDi listening on ws://127.0.0.1:54664
 1666472545248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofileUj0Zjw\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:54664/devtools/browser/831a3df4-502e-4bb3-831b-7344a3afb10e
-1666472548084	geckodriver	INFO	Listening on 127.0.0.1:54690
-1666472551152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54691" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofile1dIq71"
-1666472551722	Marionette	INFO	Marionette enabled
-1666472551730	Marionette	INFO	Listening on port 54786
-WebDriver BiDi listening on ws://127.0.0.1:54691
-Read port: 54786
-1666472552039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofile1dIq71\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:54691/devtools/browser/50c9fed7-bd25-4e99-8d76-47bdc6e852e0
-1666472677172	geckodriver	INFO	Listening on 127.0.0.1:54916
-1666472680219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54917" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofilek0yw9q"
-1666472680858	Marionette	INFO	Marionette enabled
-1666472680866	Marionette	INFO	Listening on port 54926
-Read port: 54926
-WebDriver BiDi listening on ws://127.0.0.1:54917
-1666472681013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofilek0yw9q\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:54917/devtools/browser/c6e247ea-8a8f-4ea3-98d4-8877c94d8f9f
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:54915."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:54915."
-1666472685242	Marionette	INFO	Stopped listening on port 54926
-JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
-1666472686272	geckodriver	INFO	Listening on 127.0.0.1:54987
-1666472689323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofile5yyVp4"
-1666472689857	Marionette	INFO	Marionette enabled
-1666472689865	Marionette	INFO	Listening on port 54997
-Read port: 54997
-WebDriver BiDi listening on ws://127.0.0.1:54988
-1666472690015	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofile5yyVp4\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:54988/devtools/browser/b3477e39-885f-4332-9895-fd0f95444fb2
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:54915."
-1666472693470	Marionette	INFO	Stopped listening on port 54997
-JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
-1666472694467	geckodriver	INFO	Listening on 127.0.0.1:55052
-1666472697499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55053" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofile5KMvV6"
-1666472698036	Marionette	INFO	Marionette enabled
-1666472698044	Marionette	INFO	Listening on port 55062
-Read port: 55062
-WebDriver BiDi listening on ws://127.0.0.1:55053
-1666472698187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aidan\\AppData\\Local\\Temp\\rust_mozprofile5KMvV6\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:55053/devtools/browser/449c224a-1ff4-44d2-ba4d-c9eb64cee612
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:54915."
-1666472702032	Marionette	INFO	Stopped listening on port 55062
-JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.clarity.ms/eus-d/s/0.6.43/clarity.js, line 2: Script terminated by timeout at:
+Ln@https://www.clarity.ms/eus-d/s/0.6.43/clarity.js:2:32284
+Tn@https://www.clarity.ms/eus-d/s/0.6.43/clarity.js:2:30588
+qe@https://www.clarity.ms/eus-d/s/0.6.43/clarity.js:2:24729
+Ve/</<@https://www.clarity.ms/eus-d/s/0.6.43/clarity.js:2:25652
+$/u/</<@https://www.clarity.ms/eus-d/s/0.6.43/clarity.js:2:6026
+$/u/<@https://www.clarity.ms/eus-d/s/0.6.43/clarity.js:2:6131
+o@https://www.clarity.ms/eus-d/s/0.6.43/clarity.js:2:487JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1666476404765	Marionette	INFO	Stopped listening on port 54786
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+essage for: https://www.google.com."
+JavaScript warning: https://www.godaddy.com/oJZBhzmlgM907zgtH57kE8Us/XuYztbpcz3/HRNLRk0/ETYqISl5/UmkB, line 1: unreachable code after return statement
+JavaScript warning: https://www.godaddy.com/oJZBhzmlgM907zgtH57kE8Us/XuYztbpcz3/HRNLRk0/ETYqISl5/UmkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.godaddy.com/oJZBhzmlgM907zgtH57kE8Us/XuYztbpcz3/HRNLRk0/ETYqISl5/UmkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://pi.pardot.com/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=5245&account_id=902141&title=Cheap%20Domain%20Name%20Registration%20%7C%20Buy%20%26%20Save%20Today%20-%20GoDaddy&url=https%3A%2F%2Fwww.godaddy.com%2Fdomains%2Fcheap-domain-names&referrer=https%3A%2F%2Fwww.google.com%2F, line 1: SyntaxError: unexpected token: identifier
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.godaddy.com."
+JavaScript warning: https://d3op16id4dloxg.cloudfront.net/RelevantID4.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.godaddy.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.godaddy.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.godaddy.com."
+JavaScript warning: https://www.godaddy.com/oJZBhzmlgM907zgtH57kE8Us/XuYztbpcz3/HRNLRk0/ETYqISl5/UmkB, line 1: unreachable code after return statement
+JavaScript warning: https://www.godaddy.com/oJZBhzmlgM907zgtH57kE8Us/XuYztbpcz3/HRNLRk0/ETYqISl5/UmkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://pi.pardot.com/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=5245&account_id=902141&title=GoDaddy%20Domain%20Name%20Search&url=https%3A%2F%2Fwww.godaddy.com%2Fdomainsearch%2Ffind%3FcheckAvail%3D1%26domainToCheck%3Dsuperlists&referrer=https%3A%2F%2Fwww.godaddy.com%2Fdomains%2Fcheap-domain-names, line 1: SyntaxError: unexpected token: identifier
+JavaScript error: https://pi.pardot.com/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=5245&account_id=902141&title=GoDaddy%20Domain%20Name%20Search&url=https%3A%2F%2Fwww.godaddy.com%2Fdomainsearch%2Ffind%3FcheckAvail%3D1%26domainToCheck%3Dsuperlists&referrer=https%3A%2F%2Fwww.godaddy.com%2Fdomains%2Fcheap-domain-names, line 1: SyntaxError: unexpected token: identifier
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.godaddy.com."
+JavaScript warning: https://www.godaddy.com/oJZBhzmlgM907zgtH57kE8Us/XuYztbpcz3/HRNLRk0/ETYqISl5/UmkB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://d3op16id4dloxg.cloudfront.net/RelevantID4.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.godaddy.com."
+1666473031691	Marionette	INFO	Stopped listening on port 54673
+ource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
