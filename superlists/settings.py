@@ -30,7 +30,7 @@ DEBUG = True
 
 
 # Application definition
-
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'superlisty.xyz', 'superlisty-staging.xyz',]
 INSTALLED_APPS = [
     # 'django.contrib.admin',
     'django.contrib.auth',
