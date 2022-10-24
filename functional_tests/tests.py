@@ -122,7 +122,6 @@ class NewVisitorTest(StaticLiveServerTestCase):
             )
 
         # Satisfied they both go back to sleep
-        self.fail("FINISH THE TEST!")
 
 
 
